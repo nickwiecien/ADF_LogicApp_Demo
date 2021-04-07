@@ -1,0 +1,19 @@
+{
+	"name": "HomeDataExcel",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "BlobStorage",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Excel",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"container": "filelanding"
+			},
+			"firstRowAsHeader": true
+		},
+		"schema": []
+	}
+}
