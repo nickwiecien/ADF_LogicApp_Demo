@@ -1,0 +1,87 @@
+{
+	"name": "HomeDataSQLTable",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSQLDB",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "CRIM",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "ZN",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "INDUS",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "CHAS",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "NOX",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "RM",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "AGE",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "DIS",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "RAD",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "TAX",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "PTRATIO",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "B",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "LSTAT",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "MEDV",
+				"type": "float",
+				"precision": 15
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "HomeData"
+		}
+	}
+}
